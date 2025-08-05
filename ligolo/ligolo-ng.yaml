@@ -3,10 +3,12 @@ agent:
         autobind: false
         interface: ligolo
 interface:
-    ligolosample:
+    unbiasedstrange:
         routes:
-            - 10.254.0.0/24
-            - 10.255.0.0/24
+            - 172.16.2.0/24
+    workabletartifl:
+        routes:
+            - 172.16.1.100/24
 web:
     behindreverseproxy: false
     corsallowedorigin:

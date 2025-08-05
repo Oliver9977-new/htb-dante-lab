@@ -1,0 +1,63 @@
+session
+clear
+session
+clear
+ls
+clear
+autoroute
+session
+autoroute
+session
+autoroute
+help
+session_list
+route_add -h
+interface_create
+interface_list
+route_del -h
+route_list 
+route_add -h
+session_list
+help
+tunnel_list
+interface_list 
+interface_delete meetdiablo
+interface_delete
+interface_delete --name meetdiablo
+interface_delete --name ligolosample
+interface_delete --name alerthooded
+interface_list
+interface_create -h
+route_add -h
+interface_route_add -h
+autoroute -h
+autoroute
+session
+help
+tunnel_list
+interface_list
+interface_del -name usefulskyrocket
+interface_del
+interface_del --name usefulskyrocket
+interface_list
+session
+autoroute
+interface_list
+tunnel_list
+session
+interface_delete --name rapidblue
+interface_list
+help
+interface_create -h
+interface_create
+interface_list
+interface_route_add 
+interface_route_add -h
+interface_route_add --name unbiasedstrange --route 172.16.2.0/24
+interface_list
+help
+tunnel_list
+tunnel_start
+tunnel_start-h
+tunnel_start -h
+tunnel_start --tun unbiasedstrange

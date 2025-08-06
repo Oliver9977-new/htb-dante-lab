@@ -8,3 +8,14 @@ Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 ----
 
+#### 3.  确认 RDP 服务已经启用
+Get-Service -Name TermService
+
+----
+
+#### 4. 添加用户到 Remote Desktop Users 组
+Add-LocalGroupMember -Group "Remote Desktop Users" -Member "riley"
+
+----
+
+xfreerdp /u:riley /p:P@ssw0rd /d:painters.htb /v:192.168.110.56 /cert:ignore

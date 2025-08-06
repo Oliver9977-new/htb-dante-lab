@@ -2,6 +2,12 @@
 
 `crackmapexec winrm 192.168.110.0/24 -u 'PAINTERS.HTB\backdoor_user' -p 'P@ssw0rd123!'`
 
+
+# WinRM
+
+`evil-winrm -i 192.168.110.53 -u backdoor_user -p 'P@ssw0rd123!'`
+
+
 # RDP
 
 #### 1. 启用 RDP 服务

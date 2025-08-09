@@ -1,0 +1,18 @@
+nmap -sn 10.10.110.0/24 -n
+    - return： 10.10.110.254
+
+Host name: 
+web01.rastalabs.local
+
+User/Pass:
+ahope/Summer2025
+
+ahope@rastalabs.local
+
+ws04: 10.10.123.101
+
+ws06: 10.10.123.108
+    - rlab\tquinn
+    - RLAB\Human Resources
+
+

